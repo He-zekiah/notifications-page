@@ -16,8 +16,8 @@
 }
 
 .content {
-    width: 800px;
-    height: 100%;
+    width: 750px;
+    height: 800px;
     background-color: white;
     padding: 20px;
 }
@@ -44,6 +44,11 @@
 .head2 {
     font-size: 20px;
     color: hsl(219, 14%, 63%);
+    cursor: pointer;
+}
+
+.head2:hover {
+    color: blue;
 }
 
 .nums {
@@ -64,15 +69,115 @@
 
 .pics {
     width: 50px;
+    margin-right: 20px;
 }
 
 .mess {
     background-color: hsl(223, 33%, 96%);
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 15px;
     height: 80px;
     margin-bottom: 20px;
     border-radius: 8px;
+}
+.mess1 {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    height: 80px;
+}
+
+.tess {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#text1 {
+    cursor: pointer;
+}
+
+#text1:hover {
+    color: blue;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 100px;
+}
+
+.info {
+    font-size: 20px;
+    font-weight: 100;
+    color: hsl(219, 14%, 63%);
+}
+
+#info2 {
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+#info2:hover {
+    color: blue;
+}
+
+.info3 {
+    color: hsl(218, 23%, 38%);
+    font-weight: 800;
+}
+
+.dur {
+    color: hsl(219, 14%, 63%);
+}
+
+.texts {
+    font-size: 20px;
+    color: hsl(218, 23%, 38%);
+}
+
+.time1 {
+    margin-right: 150px;
+}
+
+.tnx {
+    margin-left: 80px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 85%;
+    height: 85px;
+    border: 1px solid hsl(219, 14%, 63%);
+    cursor: pointer;
+}
+
+.tnx:hover {
+    background-color: hsl(218, 75%, 81%);
+    border: 1px solid hsl(218, 75%, 81%);
+    color: hsl(219, 62%, 66%);
+}
+
+#pic {
+    cursor: pointer;
+}
+
+#pic:hover {
+    width: 55px;
 }
