@@ -81,6 +81,7 @@
     margin-bottom: 20px;
     border-radius: 8px;
 }
+
 .mess1 {
     display: flex;
     align-items: center;
@@ -180,4 +181,92 @@
 
 #pic:hover {
     width: 55px;
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        overflow: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .content {
+        height: 100%;
+        width: 100%;
+    }
+
+    .header {
+        margin-bottom: 20px;
+    }
+
+    .head1 {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .head2 {
+        font-size: 18px;
+    }
+
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text1 {
+        font-weight: 800;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .info {
+        font-size: 15px;
+        font-weight: 100;
+        color: hsl(219, 14%, 63%);
+    }
+
+    .info3 {
+        width: 100%;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+        background-color: hsl(1, 90%, 64%);
+        border-radius: 100px;
+    }
+
+    #pic {
+        margin-right: -10px;
+    }
+
+    .tnx {
+        margin-left: 80px;
+        margin-bottom: 20px;
+        padding: 10px;
+        width: 75%;
+        height: 110px;
+        border: 1px solid hsl(219, 14%, 63%);
+        cursor: pointer;
+    }
+
+    .mess1 {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        height: 80px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .time1 {
+        margin-right: 10px;
+    }
+
+    .texts {
+        font-size: 16px;
+    }
 }
